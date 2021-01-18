@@ -6,7 +6,8 @@
       <class name="Country_RestAssured">
         <methods>
           <include name="TearDown"/>
-          <include name="test5_Invalid_Header"/>
+          <include name="test2_AddCountryCode_ToGetCapital"/>
+          <include name="test3_AddCountryName_TogetCapital"/>
           <include name="setup"/>
         </methods>
       </class> <!-- Country_RestAssured -->

@@ -1,21 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2641" started-at="2021-01-17T22:24:02 CST" finished-at="2021-01-17T22:24:05 CST">
+  <suite name="Default suite" duration-ms="41765" started-at="2021-01-18T17:12:40 CST" finished-at="2021-01-18T17:13:22 CST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2641" started-at="2021-01-17T22:24:02 CST" finished-at="2021-01-17T22:24:05 CST">
+    <test name="Default test" duration-ms="41765" started-at="2021-01-18T17:12:40 CST" finished-at="2021-01-18T17:13:22 CST">
       <class name="Country_RestAssured">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Country_RestAssured@7f13d6e]" name="setup" is-config="true" duration-ms="111" started-at="2021-01-17T22:24:02 CST" finished-at="2021-01-17T22:24:02 CST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Country_RestAssured@7f13d6e]" name="setup" is-config="true" duration-ms="125" started-at="2021-01-18T17:12:40 CST" finished-at="2021-01-18T17:12:40 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test1_getAll_Info()[pri:1, instance:Country_RestAssured@7f13d6e]" name="test1_getAll_Info" duration-ms="2204" started-at="2021-01-17T22:24:02 CST" finished-at="2021-01-17T22:24:05 CST">
+        <test-method status="PASS" signature="test1_getAll_Info()[pri:1, instance:Country_RestAssured@7f13d6e]" name="test1_getAll_Info" duration-ms="2148" started-at="2021-01-18T17:12:40 CST" finished-at="2021-01-18T17:12:42 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1_getAll_Info -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:Country_RestAssured@7f13d6e]" name="TearDown" is-config="true" duration-ms="287" started-at="2021-01-17T22:24:05 CST" finished-at="2021-01-17T22:24:05 CST">
+        <test-method status="PASS" signature="test2_AddCountryCode_ToGetCapital()[pri:2, instance:Country_RestAssured@7f13d6e]" name="test2_AddCountryCode_ToGetCapital" duration-ms="10523" started-at="2021-01-18T17:12:42 CST" finished-at="2021-01-18T17:12:53 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2_AddCountryCode_ToGetCapital -->
+        <test-method status="PASS" signature="test3_AddCountryName_TogetCapital()[pri:3, instance:Country_RestAssured@7f13d6e]" name="test3_AddCountryName_TogetCapital" duration-ms="28280" started-at="2021-01-18T17:12:53 CST" finished-at="2021-01-18T17:13:21 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3_AddCountryName_TogetCapital -->
+        <test-method status="PASS" signature="test4_Invalid_HTTPMethod()[pri:4, instance:Country_RestAssured@7f13d6e]" name="test4_Invalid_HTTPMethod" duration-ms="206" started-at="2021-01-18T17:13:21 CST" finished-at="2021-01-18T17:13:21 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4_Invalid_HTTPMethod -->
+        <test-method status="PASS" signature="test5_Invalid_URL()[pri:5, instance:Country_RestAssured@7f13d6e]" name="test5_Invalid_URL" duration-ms="207" started-at="2021-01-18T17:13:21 CST" finished-at="2021-01-18T17:13:21 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5_Invalid_URL -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:Country_RestAssured@7f13d6e]" name="TearDown" is-config="true" duration-ms="229" started-at="2021-01-18T17:13:21 CST" finished-at="2021-01-18T17:13:22 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
